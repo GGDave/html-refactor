@@ -8,9 +8,12 @@
 </head>
 
 <body>
-    <div class="header">
+    <header class="header"> <!-- changed div to header. headers are commonly used for placing introductory content and links.  . --> 
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <nav> <!-- changed div to nav, the following links help with navigating through the page. 
+            since div was changed to nav, the path is now broken and wount render. any class
+            selector, that begins with .header will need to be updates in style.css to include 
+            "nav", so scc can follow the right path. class>nav>ul>li  -->  
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,8 +25,8 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header class="header"> 
     <div class="hero"></div>
     <div class="content">
         <div class="search-engine-optimization">
